@@ -1,0 +1,1272 @@
+/.eslintplugin/ @mjbvz
+/.eslintrc.json @mjbvz @jrieken
+/.github/* @lramos15 @isidorn
+/.github/workflows/codeql.yml @SamirPS @rebornix
+/.github/workflows/deep-classifier-runner.yml @lramos15
+/.github/workflows/english-please.yml @lramos15
+/.github/workflows/needs-more-info-closer.yml @lramos15
+/.github/workflows/on-label.yml @lramos15
+/.github/workflows/on-open.yml @lramos15
+/.github/workflows/test-plan-item-validator.yml @lramos15
+/.mailmap @joaomoreno
+/.vscode/launch.json @connor4312 @roblourens
+/.vscode/notebooks/api.github-issues @mjbvz
+/.vscode/notebooks/endgame.github-issues @lszomoru
+/.vscode/notebooks/inbox.github-issues @lramos15
+/.vscode/notebooks/my-endgame.github-issues @joyceerhl @lramos15 @roblourens
+/.vscode/notebooks/my-work.github-issues @jrieken @lramos15
+/.vscode/settings.json @mjbvz
+/.yarnrc @deepak1556
+/build/.webignore @Tyriar
+/build/azure-pipelines/common/ @connor4312
+/build/azure-pipelines/darwin/product-build-darwin-sign.yml @connor4312 @joaomoreno
+/build/azure-pipelines/darwin/product-build-darwin-test.yml @bpasero
+/build/azure-pipelines/darwin/product-build-darwin-universal.yml @connor4312
+/build/azure-pipelines/darwin/product-build-darwin.yml @connor4312
+/build/azure-pipelines/distro-build.yml @TylerLeonhardt
+/build/azure-pipelines/linux/ @connor4312
+/build/azure-pipelines/linux/product-build-linux-client.yml @jrieken
+/build/azure-pipelines/product-build-pr-cache.yml @connor4312 @lszomoru
+/build/azure-pipelines/product-build-pr.yml @lszomoru
+/build/azure-pipelines/product-build.yml @lszomoru
+/build/azure-pipelines/product-compile.yml @connor4312
+/build/azure-pipelines/web/ @connor4312
+/build/azure-pipelines/win32/product-build-win32-test.yml @bpasero
+/build/azure-pipelines/win32/product-build-win32.yml @connor4312 @jrieken
+/build/eslint.js @mjbvz
+/build/filters.js @isidorn @zgracem @hediet
+/build/gulpfile.extensions.js @connor4312 @jrieken
+/build/gulpfile.js @jrieken
+/build/gulpfile.reh.js @zgracem @meganrogge
+/build/gulpfile.vscode.js @TylerLeonhardt @isidorn @joaomoreno @zgracem @hediet
+/build/gulpfile.vscode.linux.js @rzhao271
+/build/gulpfile.vscode.web.js @connor4312 @isidorn
+/build/hygiene.js @mjbvz
+/build/lib/builtInExtensions.js @connor4312
+/build/lib/builtInExtensions.ts @connor4312
+/build/lib/compilation.js @jrieken @joaomoreno
+/build/lib/compilation.ts @jrieken @joaomoreno
+/build/lib/electron.js @aburgel @joaomoreno
+/build/lib/electron.ts @aburgel @joaomoreno
+/build/lib/extensions.js @rebornix @connor4312
+/build/lib/extensions.ts @rebornix @connor4312
+/build/lib/i18n.js @TylerLeonhardt
+/build/lib/i18n.ts @TylerLeonhardt
+/build/lib/layersChecker.js @bpasero @mjbvz
+/build/lib/layersChecker.ts @bpasero @mjbvz
+/build/lib/policies.js @bpasero @joaomoreno
+/build/lib/policies.ts @bpasero @joaomoreno
+/build/lib/treeshaking.js @bpasero @alexdima
+/build/lib/treeshaking.ts @bpasero @alexdima
+/build/lib/tsb/ @jrieken
+/build/lib/util.ts @mjbvz
+/build/linux/* @rzhao271
+/build/linux/debian/calculate-deps.js @rzhao271 @deepak1556
+/build/linux/debian/calculate-deps.ts @deepak1556
+/build/linux/debian/dep-lists.js @deepak1556
+/build/linux/debian/dep-lists.ts @deepak1556
+/build/linux/debian/install-sysroot.js @rzhao271
+/build/linux/debian/install-sysroot.ts @rzhao271
+/build/linux/debian/types.js @rzhao271
+/build/linux/debian/types.ts @rzhao271
+/build/linux/rpm/ @rzhao271
+/build/monaco/ @hediet
+/build/npm/ @mjbvz
+/build/package.json @bpasero @mjbvz
+/build/tsconfig.build.json @mjbvz
+/build/win32/ @joaomoreno
+/build/yarn.lock @bpasero @mjbvz
+/cglicenses.json @isidorn @bpasero @deepak1556
+/cgmanifest.json @deepak1556 @mjbvz
+/extensions/configuration-editing/* @TylerLeonhardt
+/extensions/configuration-editing/schemas/ @aeschli
+/extensions/configuration-editing/src/ @aeschli
+/extensions/cpp/ @OtherHorizon @aeschli
+/extensions/csharp/ @alexr00
+/extensions/css-language-features/ @aeschli
+/extensions/css-language-features/* @TylerLeonhardt
+/extensions/dart/ @alexr00
+/extensions/debug-auto-launch/ @TylerLeonhardt
+/extensions/debug-server-ready/ @TylerLeonhardt
+/extensions/emmet/ @rzhao271
+/extensions/extension-editing/ @TylerLeonhardt
+/extensions/fsharp/ @alexr00
+/extensions/git-base/ @TylerLeonhardt
+/extensions/git/* @lszomoru
+/extensions/git/package.json @jrieken @joaomoreno
+/extensions/git/package.nls.json @jrieken
+/extensions/git/src/actionButton.ts @lszomoru
+/extensions/git/src/api/ @lszomoru
+/extensions/git/src/askpass-main.ts @lszomoru
+/extensions/git/src/askpass.sh @lszomoru
+/extensions/git/src/askpass.ts @lszomoru
+/extensions/git/src/commands.ts @lszomoru @jrieken @joaomoreno
+/extensions/git/src/editSessionIdentityProvider.ts @joyceerhl @joaomoreno
+/extensions/git/src/git.ts @mjbvz @lszomoru @jrieken
+/extensions/git/src/main.ts @joyceerhl @joaomoreno
+/extensions/git/src/model.ts @lszomoru
+/extensions/git/src/postCommitCommands.ts @lszomoru
+/extensions/git/src/protocolHandler.ts @joyceerhl
+/extensions/git/src/repository.ts @lszomoru @jrieken
+/extensions/git/src/ssh-askpass-empty.sh @lszomoru
+/extensions/git/src/ssh-askpass.sh @lszomoru
+/extensions/git/src/typings/ @joyceerhl @joaomoreno
+/extensions/git/src/util.ts @lszomoru
+/extensions/git/yarn.lock @TylerLeonhardt
+/extensions/github-authentication/ @TylerLeonhardt
+/extensions/github/* @TylerLeonhardt
+/extensions/github/package.json @joyceerhl
+/extensions/github/src/ @alexr00 @joyceerhl
+/extensions/github/src/links.ts @DonJayamanne
+/extensions/grunt/ @TylerLeonhardt
+/extensions/gulp/ @TylerLeonhardt
+/extensions/html-language-features/ @aeschli
+/extensions/html-language-features/* @TylerLeonhardt
+/extensions/html-language-features/server/* @TylerLeonhardt
+/extensions/image-preview/media/ @mjbvz
+/extensions/image-preview/package.json @mjbvz @joaomoreno
+/extensions/image-preview/package.nls.json @mjbvz
+/extensions/image-preview/src/ @mjbvz
+/extensions/image-preview/yarn.lock @TylerLeonhardt
+/extensions/ipynb/.gitignore @Yoyokrazy
+/extensions/ipynb/.vscodeignore @mjbvz
+/extensions/ipynb/esbuild.js @Yoyokrazy
+/extensions/ipynb/notebook-src/ @Yoyokrazy
+/extensions/ipynb/package.json @mjbvz @Yoyokrazy
+/extensions/ipynb/package.nls.json @Yoyokrazy
+/extensions/ipynb/src/cellIdService.ts @mjbvz
+/extensions/ipynb/src/common.ts @rebornix @mjbvz
+/extensions/ipynb/src/deserializers.ts @mjbvz
+/extensions/ipynb/src/ipynbMain.ts @Yoyokrazy
+/extensions/ipynb/src/notebookImagePaste.ts @Yoyokrazy
+/extensions/ipynb/src/notebookSerializer.ts @mjbvz
+/extensions/ipynb/src/serializers.ts @mjbvz
+/extensions/ipynb/src/test/ @mjbvz
+/extensions/ipynb/tsconfig.json @mjbvz @Yoyokrazy
+/extensions/ipynb/yarn.lock @mjbvz @rebornix
+/extensions/jake/ @TylerLeonhardt
+/extensions/javascript/ @alexr00
+/extensions/json-language-features/ @aeschli
+/extensions/json-language-features/* @TylerLeonhardt
+/extensions/latex/ @alexr00
+/extensions/markdown-basics/ @mjbvz
+/extensions/markdown-language-features/ @mjbvz
+/extensions/markdown-language-features/package.json @bpasero
+/extensions/markdown-language-features/yarn.lock @TylerLeonhardt
+/extensions/merge-conflict/* @TylerLeonhardt
+/extensions/merge-conflict/src/ @hediet
+/extensions/microsoft-authentication/ @TylerLeonhardt
+/extensions/notebook-renderers/ @mjbvz
+/extensions/npm/package.json @babakks @TylerLeonhardt @connor4312
+/extensions/npm/package.nls.json @babakks @connor4312
+/extensions/npm/src/* @babakks @connor4312
+/extensions/npm/src/features/ @aeschli
+/extensions/npm/yarn.lock @TylerLeonhardt
+/extensions/package.json @mjbvz
+/extensions/php-language-features/ @TylerLeonhardt
+/extensions/pug/ @alexr00
+/extensions/razor/ @alexr00
+/extensions/references-view/ @TylerLeonhardt
+/extensions/scss/ @alexr00
+/extensions/shared.webpack.config.js @TylerLeonhardt
+/extensions/shellscript/ @Tyriar
+/extensions/simple-browser/.vscodeignore @mjbvz
+/extensions/simple-browser/package.json @TylerLeonhardt
+/extensions/simple-browser/src/ @alexr00
+/extensions/simple-browser/yarn.lock @TylerLeonhardt
+/extensions/theme-abyss/ @mjbvz
+/extensions/theme-defaults/ @mjbvz
+/extensions/theme-defaults/themes/dark_vs.json @daviddossett
+/extensions/theme-defaults/themes/light_vs.json @daviddossett
+/extensions/theme-kimbie-dark/ @mjbvz
+/extensions/theme-monokai-dimmed/ @daviddossett
+/extensions/theme-monokai/ @mjbvz
+/extensions/theme-quietlight/ @mjbvz
+/extensions/theme-red/ @mjbvz
+/extensions/theme-seti/ @aeschli
+/extensions/theme-solarized-dark/ @mjbvz
+/extensions/theme-solarized-light/ @mjbvz
+/extensions/theme-tomorrow-night-blue/ @mjbvz
+/extensions/tsconfig.base.json @mjbvz
+/extensions/typescript-basics/ @alexr00
+/extensions/typescript-language-features/* @TylerLeonhardt
+/extensions/typescript-language-features/src/ @mjbvz
+/extensions/typescript-language-features/src/languageFeatures/hover.ts @lramos15
+/extensions/typescript-language-features/src/tsServer/versionProvider.electron.ts @lramos15
+/extensions/typescript-language-features/src/tsServer/versionProvider.ts @lramos15
+/extensions/typescript-language-features/src/utils/logLevelMonitor.ts @lramos15
+/extensions/vscode-api-tests/* @benibenj
+/extensions/vscode-api-tests/src/* @rebornix
+/extensions/vscode-api-tests/src/singlefolder-tests/commands.test.ts @bpasero
+/extensions/vscode-api-tests/src/singlefolder-tests/interactiveWindow.test.ts @rebornix @amunger
+/extensions/vscode-api-tests/src/singlefolder-tests/notebook.api.test.ts @rebornix @bpasero
+/extensions/vscode-api-tests/src/singlefolder-tests/notebook.document.test.ts @rebornix @bpasero
+/extensions/vscode-api-tests/src/singlefolder-tests/notebook.editor.test.ts @rebornix
+/extensions/vscode-api-tests/src/singlefolder-tests/notebook.kernel.test.ts @rebornix @bpasero
+/extensions/vscode-api-tests/src/singlefolder-tests/workspace.test.ts @bpasero @jrieken
+/extensions/vscode-colorize-tests/ @alexr00
+/extensions/yarn.lock @mjbvz
+/package.json @mjbvz @Tyriar @lramos15 @joyceerhl @bpasero
+/product.json @connor4312 @mjbvz
+/README.md @isidorn
+/remote/ @Tyriar
+/resources/ @Evpok
+/scripts/ @Tyriar
+/src/bootstrap-window.js @Tyriar
+/src/bootstrap.js @bpasero
+/src/cli.js @bpasero
+/src/main.js @bpasero
+/src/tsec.exemptions.json @aiday-mar @aeschli
+/src/vs/* @alexdima @aiday-mar
+/src/vs/base/browser/browser.ts @pingren @a-stewart
+/src/vs/base/browser/defaultWorkerFactory.ts @jrieken
+/src/vs/base/browser/dnd.ts @mjbvz
+/src/vs/base/browser/dom.ts @mjbvz @connor4312
+/src/vs/base/browser/event.ts @mjbvz
+/src/vs/base/browser/indexedDB.ts @connor4312 @mjbvz
+/src/vs/base/browser/markdownRenderer.ts @mjbvz
+/src/vs/base/browser/mouseEvent.ts @connor4312 @mjbvz
+/src/vs/base/browser/ui/actionbar/actionbar.css @jrieken
+/src/vs/base/browser/ui/actionbar/actionViewItems.ts @connor4312 @isidorn
+/src/vs/base/browser/ui/button/ @lszomoru
+/src/vs/base/browser/ui/centered/ @connor4312
+/src/vs/base/browser/ui/codicons/ @miguelsolorio @tanhakabir
+/src/vs/base/browser/ui/dropdown/ @connor4312
+/src/vs/base/browser/ui/dropdown/dropdownActionViewItem.ts @mjbvz
+/src/vs/base/browser/ui/findinput/findInput.ts @Tyriar
+/src/vs/base/browser/ui/findinput/replaceInput.ts @connor4312
+/src/vs/base/browser/ui/highlightedlabel/ @benibenj
+/src/vs/base/browser/ui/iconLabel/iconlabel.css @benibenj
+/src/vs/base/browser/ui/iconLabel/iconLabel.ts @benibenj
+/src/vs/base/browser/ui/iconLabel/iconLabels.ts @mjbvz
+/src/vs/base/browser/ui/inputbox/ @connor4312
+/src/vs/base/browser/ui/list/listPaging.ts @connor4312
+/src/vs/base/browser/ui/list/listView.ts @mjbvz
+/src/vs/base/browser/ui/list/listWidget.ts @mjbvz @connor4312
+/src/vs/base/browser/ui/menu/ @connor4312
+/src/vs/base/browser/ui/menu/menu.ts @mjbvz
+/src/vs/base/browser/ui/sash/ @mjbvz
+/src/vs/base/browser/ui/splitview/ @avi-gitkraken
+/src/vs/base/browser/ui/tree/ @joaomoreno
+/src/vs/base/browser/ui/tree/abstractTree.ts @Tyriar
+/src/vs/base/browser/ui/tree/media/ @sandy081
+/src/vs/base/common/actions.ts @jrieken @lramos15
+/src/vs/base/common/arrays.ts @hediet
+/src/vs/base/common/assert.ts @hediet @mjbvz
+/src/vs/base/common/async.ts @bpasero @roblourens
+/src/vs/base/common/cancellation.ts @connor4312
+/src/vs/base/common/codicons.ts @miguelsolorio @tanhakabir
+/src/vs/base/common/errors.ts @lramos15
+/src/vs/base/common/event.ts @alexdima @jrieken
+/src/vs/base/common/lifecycle.ts @jrieken
+/src/vs/base/common/map.ts @mjbvz @jrieken
+/src/vs/base/common/marked/ @mjbvz
+/src/vs/base/common/network.ts @jrieken @lszomoru
+/src/vs/base/common/objects.ts @mjbvz
+/src/vs/base/common/observableImpl/ @hediet
+/src/vs/base/common/paging.ts @mjbvz
+/src/vs/base/common/sequence.ts @mjbvz
+/src/vs/base/common/strings.ts @bpasero
+/src/vs/base/common/types.ts @lramos15 @bpasero
+/src/vs/base/common/uri.ts @mjbvz
+/src/vs/base/common/worker/ @mjbvz
+/src/vs/base/node/languagePacks.d.ts @bpasero
+/src/vs/base/node/languagePacks.js @bpasero
+/src/vs/base/node/pfs.ts @bpasero
+/src/vs/base/node/processes.ts @mjbvz
+/src/vs/base/node/zip.ts @connor4312
+/src/vs/base/parts/ipc/common/ipc.net.ts @alexdima
+/src/vs/base/parts/ipc/common/ipc.ts @FantasqueX @bpasero
+/src/vs/base/parts/ipc/electron-main/ @connor4312
+/src/vs/base/parts/ipc/node/ @connor4312
+/src/vs/base/parts/quickinput/browser/media/ @TylerLeonhardt
+/src/vs/base/parts/quickinput/browser/quickInput.ts @connor4312 @mjbvz @rebornix
+/src/vs/base/parts/quickinput/browser/quickInputBox.ts @Tyriar
+/src/vs/base/parts/quickinput/browser/quickInputList.ts @meganrogge
+/src/vs/base/parts/quickinput/common/ @TylerLeonhardt @meganrogge
+/src/vs/base/parts/quickinput/test/ @TylerLeonhardt
+/src/vs/base/parts/sandbox/ @bpasero
+/src/vs/base/test/browser/indexedDB.test.ts @connor4312
+/src/vs/base/test/browser/markdownRenderer.test.ts @mjbvz
+/src/vs/base/test/browser/ui/ @joaomoreno
+/src/vs/base/test/common/async.test.ts @bpasero
+/src/vs/base/test/common/lifecycle.test.ts @mjbvz
+/src/vs/base/test/common/types.test.ts @mjbvz
+/src/vs/base/test/node/ @bpasero
+/src/vs/base/worker/ @hediet
+/src/vs/code/electron-browser/ @bpasero
+/src/vs/code/electron-browser/sharedProcess/contrib/extensionsCleaner.ts @sandy081
+/src/vs/code/electron-browser/sharedProcess/contrib/userDataProfilesCleaner.ts @sandy081
+/src/vs/code/electron-browser/sharedProcess/sharedProcessMain.ts @sandy081 @lramos15
+/src/vs/code/electron-main/ @bpasero @sandy081
+/src/vs/code/electron-sandbox/issue/issueReporterMain.ts @TylerLeonhardt @connor4312
+/src/vs/code/electron-sandbox/issue/issueReporterModel.ts @bpasero @deepak1556
+/src/vs/code/electron-sandbox/issue/issueReporterPage.ts @gjsjohnmurray @sandy081
+/src/vs/code/electron-sandbox/processExplorer/ @rebornix
+/src/vs/code/electron-sandbox/workbench/workbench.html @aiday-mar @aeschli
+/src/vs/code/electron-sandbox/workbench/workbench.js @bpasero
+/src/vs/code/node/cli.ts @Tyriar @meganrogge
+/src/vs/code/node/cliProcessMain.ts @sandy081 @lramos15 @jrieken
+/src/vs/code/test/ @bpasero @deepak1556
+/src/vs/editor/* @aiday-mar @jrieken
+/src/vs/editor/browser/config/ @aiday-mar
+/src/vs/editor/browser/controller/ @mjbvz
+/src/vs/editor/browser/coreCommands.ts @pwxn @alexdima
+/src/vs/editor/browser/editorBrowser.ts @hediet @alexdima
+/src/vs/editor/browser/editorDom.ts @mjbvz
+/src/vs/editor/browser/services/bulkEditService.ts @mjbvz
+/src/vs/editor/browser/services/editorWorkerService.ts @hediet
+/src/vs/editor/browser/services/webWorker.ts @mjbvz
+/src/vs/editor/browser/view/domLineBreaksComputer.ts @mjbvz
+/src/vs/editor/browser/view/renderingContext.ts @hediet @bpasero
+/src/vs/editor/browser/view/viewLayer.ts @mjbvz
+/src/vs/editor/browser/view/viewOverlays.ts @mjbvz
+/src/vs/editor/browser/viewParts/blockDecorations/ @hediet @bpasero
+/src/vs/editor/browser/viewParts/contentWidgets/ @mjbvz
+/src/vs/editor/browser/viewParts/lineNumbers/ @alexdima
+/src/vs/editor/browser/viewParts/lines/viewLine.ts @mjbvz
+/src/vs/editor/browser/viewParts/lines/viewLines.ts @aiday-mar @alexdima
+/src/vs/editor/browser/viewParts/minimap/ @hediet
+/src/vs/editor/browser/widget/codeEditorWidget.ts @mjbvz @hediet @jrieken
+/src/vs/editor/browser/widget/diffEditorWidget.ts @mjbvz @connor4312
+/src/vs/editor/browser/widget/diffNavigator.ts @hediet
+/src/vs/editor/browser/widget/diffReview.ts @connor4312 @hediet
+/src/vs/editor/browser/widget/embeddedCodeEditorWidget.ts @hediet
+/src/vs/editor/browser/widget/workerBasedDocumentDiffProvider.ts @hediet
+/src/vs/editor/common/config/editorConfigurationSchema.ts @hediet @rzhao271
+/src/vs/editor/common/config/editorOptions.ts @aiday-mar @alexdima @jrieken
+/src/vs/editor/common/core/range.ts @hediet
+/src/vs/editor/common/core/stringBuilder.ts @mjbvz
+/src/vs/editor/common/core/wordHelper.ts @mjbvz
+/src/vs/editor/common/diff/ @hediet
+/src/vs/editor/common/languages.ts @jrieken
+/src/vs/editor/common/languages/* @jrieken
+/src/vs/editor/common/languages/supports/richEditBrackets.ts @mjbvz
+/src/vs/editor/common/languages/supports/tokenization.ts @hediet
+/src/vs/editor/common/model.ts @alexdima @hediet
+/src/vs/editor/common/model/bracketPairsTextModelPart/ @hediet
+/src/vs/editor/common/model/decorationProvider.ts @hediet
+/src/vs/editor/common/model/guidesTextModelPart.ts @hediet
+/src/vs/editor/common/model/textModel.ts @alexdima
+/src/vs/editor/common/model/textModelSearch.ts @roblourens
+/src/vs/editor/common/model/textModelTokens.ts @alexdima
+/src/vs/editor/common/modelLineProjectionData.ts @mjbvz
+/src/vs/editor/common/services/editorSimpleWorker.ts @hediet @mjbvz
+/src/vs/editor/common/services/editorWorker.ts @hediet @alexdima
+/src/vs/editor/common/services/unicodeTextModelHighlighter.ts @mjbvz
+/src/vs/editor/common/standalone/ @aiday-mar @jrieken
+/src/vs/editor/common/textModelBracketPairs.ts @hediet
+/src/vs/editor/common/viewLayout/viewLineRenderer.ts @mjbvz
+/src/vs/editor/common/viewLayout/viewLinesViewportData.ts @alexdima
+/src/vs/editor/common/viewModel.ts @alexdima @aiday-mar
+/src/vs/editor/common/viewModel/viewModelDecorations.ts @alexdima
+/src/vs/editor/common/viewModel/viewModelImpl.ts @alexdima @aiday-mar
+/src/vs/editor/common/viewModel/viewModelLines.ts @hediet
+/src/vs/editor/contrib/codeAction/browser/codeAction.ts @mjbvz
+/src/vs/editor/contrib/codeAction/browser/codeActionCommands.ts @mjbvz @justschen
+/src/vs/editor/contrib/codeAction/browser/codeActionContributions.ts @justschen
+/src/vs/editor/contrib/codeAction/browser/codeActionMenu.ts @mjbvz @justschen
+/src/vs/editor/contrib/codeAction/browser/codeActionUi.ts @mjbvz
+/src/vs/editor/contrib/codeAction/browser/codeActionWidgetContribution.ts @justschen @mjbvz
+/src/vs/editor/contrib/codeAction/browser/media/ @justschen @mjbvz
+/src/vs/editor/contrib/codeAction/browser/types.ts @justschen
+/src/vs/editor/contrib/codeAction/test/ @mjbvz
+/src/vs/editor/contrib/codelens/ @jrieken @alexr00
+/src/vs/editor/contrib/contextmenu/ @jrieken @sbatten
+/src/vs/editor/contrib/copyPaste/ @mjbvz
+/src/vs/editor/contrib/documentSymbols/ @aiday-mar
+/src/vs/editor/contrib/dropIntoEditor/ @mjbvz
+/src/vs/editor/contrib/editorState/ @jrieken
+/src/vs/editor/contrib/find/ @Tyriar
+/src/vs/editor/contrib/folding/ @aeschli
+/src/vs/editor/contrib/folding/browser/folding.ts @connor4312 @mjbvz
+/src/vs/editor/contrib/gotoSymbol/browser/goToCommands.ts @jrieken
+/src/vs/editor/contrib/gotoSymbol/browser/goToSymbol.ts @mjbvz
+/src/vs/editor/contrib/gotoSymbol/browser/link/clickLinkGesture.ts @aiday-mar
+/src/vs/editor/contrib/gotoSymbol/browser/link/goToDefinitionAtPosition.ts @jrieken
+/src/vs/editor/contrib/gotoSymbol/browser/peek/ @connor4312
+/src/vs/editor/contrib/hover/ @connor4312
+/src/vs/editor/contrib/inlayHints/ @jrieken
+/src/vs/editor/contrib/inlineCompletions/browser/ghostTextController.ts @connor4312
+/src/vs/editor/contrib/inlineCompletions/browser/ghostTextWidget.ts @mjbvz
+/src/vs/editor/contrib/inlineCompletions/browser/inlineCompletionsModel.ts @juihanamshet1 @mjbvz @alexr00
+/src/vs/editor/contrib/inlineCompletions/browser/suggestWidgetInlineCompletionProvider.ts @connor4312
+/src/vs/editor/contrib/inPlaceReplace/ @connor4312
+/src/vs/editor/contrib/message/ @hediet
+/src/vs/editor/contrib/peekView/ @jrieken
+/src/vs/editor/contrib/readOnlyMessage/ @hediet
+/src/vs/editor/contrib/rename/ @mjbvz
+/src/vs/editor/contrib/snippet/browser/snippetController2.ts @connor4312
+/src/vs/editor/contrib/snippet/browser/snippetParser.ts @jrieken
+/src/vs/editor/contrib/snippet/test/ @jrieken
+/src/vs/editor/contrib/stickyScroll/ @aiday-mar
+/src/vs/editor/contrib/stickyScroll/browser/stickyScrollController.ts @alexdima
+/src/vs/editor/contrib/stickyScroll/browser/stickyScrollProvider.ts @jrieken
+/src/vs/editor/contrib/stickyScroll/browser/stickyScrollWidget.ts @jrieken
+/src/vs/editor/contrib/suggest/ @jrieken
+/src/vs/editor/contrib/wordHighlighter/ @connor4312
+/src/vs/editor/contrib/zoneWidget/ @connor4312
+/src/vs/editor/standalone/browser/accessibilityHelp/ @connor4312
+/src/vs/editor/standalone/browser/inspectTokens/ @connor4312
+/src/vs/editor/standalone/browser/standaloneCodeEditor.ts @hediet
+/src/vs/editor/standalone/browser/standaloneCodeEditorService.ts @jrieken
+/src/vs/editor/standalone/browser/standaloneLayoutService.ts @alexr00 @bpasero
+/src/vs/editor/standalone/browser/standaloneServices.ts @jrieken @mjbvz
+/src/vs/editor/test/browser/* @aiday-mar
+/src/vs/editor/test/browser/viewModel/ @alexdima
+/src/vs/editor/test/common/diff/ @hediet
+/src/vs/editor/test/common/model/* @roblourens
+/src/vs/editor/test/common/model/bracketPairColorizer/ @hediet
+/src/vs/editor/test/common/services/modelService.test.ts @mjbvz
+/src/vs/editor/test/common/services/testEditorWorkerService.ts @hediet
+/src/vs/platform/action/ @mjbvz
+/src/vs/platform/actions/ @jrieken
+/src/vs/platform/actions/common/actions.ts @alexr00
+/src/vs/platform/backup/ @bpasero
+/src/vs/platform/configuration/common/configuration.ts @mjbvz
+/src/vs/platform/configuration/common/configurationModels.ts @sandy081
+/src/vs/platform/configuration/test/ @sandy081
+/src/vs/platform/contextkey/ @jrieken
+/src/vs/platform/contextkey/browser/ @bpasero
+/src/vs/platform/contextview/browser/contextMenuHandler.ts @connor4312
+/src/vs/platform/contextview/browser/contextMenuService.ts @bpasero
+/src/vs/platform/contextview/browser/contextViewService.ts @sbatten
+/src/vs/platform/debug/ @sandy081
+/src/vs/platform/diagnostics/ @bpasero
+/src/vs/platform/diagnostics/electron-sandbox/ @joyceerhl
+/src/vs/platform/editor/ @lramos15
+/src/vs/platform/environment/common/argv.ts @sandy081 @jrieken
+/src/vs/platform/environment/common/environment.ts @jrieken @lramos15
+/src/vs/platform/environment/common/environmentService.ts @lramos15
+/src/vs/platform/environment/electron-main/ @bpasero @jrieken
+/src/vs/platform/environment/node/argv.ts @sandy081 @lramos15 @jrieken
+/src/vs/platform/environment/node/stdin.ts @bpasero
+/src/vs/platform/extensionManagement/common/abstractExtensionManagementService.ts @sandy081 @alexr00
+/src/vs/platform/extensionManagement/common/extensionManagement.ts @sandy081
+/src/vs/platform/extensionManagement/common/extensionManagementCLI.ts @sandy081
+/src/vs/platform/extensionManagement/common/extensionManagementIpc.ts @mjbvz @sandy081
+/src/vs/platform/extensionManagement/common/extensionNls.ts @TylerLeonhardt
+/src/vs/platform/extensionManagement/common/extensionsProfileScannerService.ts @sandy081
+/src/vs/platform/extensionManagement/common/extensionsScannerService.ts @sandy081 @mjbvz
+/src/vs/platform/extensionManagement/common/extensionStorage.ts @mjbvz
+/src/vs/platform/extensionManagement/electron-main/ @sandy081
+/src/vs/platform/extensionManagement/electron-sandbox/ @jrieken @sandy081
+/src/vs/platform/extensionManagement/node/ @sandy081
+/src/vs/platform/extensionManagement/test/ @TylerLeonhardt
+/src/vs/platform/extensions/common/ @TylerLeonhardt
+/src/vs/platform/extensions/electron-main/ @deepak1556
+/src/vs/platform/externalTerminal/ @bpasero @joyceerhl
+/src/vs/platform/files/browser/ @mjbvz
+/src/vs/platform/files/common/ @joyceerhl @connor4312
+/src/vs/platform/files/common/files.ts @FantasqueX
+/src/vs/platform/history/ @connor4312 @mjbvz
+/src/vs/platform/instantiation/ @jrieken
+/src/vs/platform/ipc/ @bpasero @joyceerhl
+/src/vs/platform/issue/ @bpasero
+/src/vs/platform/issue/common/ @rebornix @deepak1556
+/src/vs/platform/issue/electron-main/ @connor4312 @gjsjohnmurray
+/src/vs/platform/keybinding/ @jrieken
+/src/vs/platform/label/ @lszomoru
+/src/vs/platform/languagePacks/ @TylerLeonhardt
+/src/vs/platform/launch/ @bpasero @sandy081
+/src/vs/platform/lifecycle/ @bpasero
+/src/vs/platform/list/ @rebornix @joaomoreno
+/src/vs/platform/log/ @connor4312
+/src/vs/platform/markers/ @lszomoru
+/src/vs/platform/native/ @sbatten
+/src/vs/platform/native/electron-main/ @connor4312
+/src/vs/platform/profiling/ @bpasero @joyceerhl
+/src/vs/platform/progress/ @Tyriar
+/src/vs/platform/protocol/ @jrieken @MaddyDev
+/src/vs/platform/quickinput/browser/commandsQuickAccess.ts @jrieken
+/src/vs/platform/quickinput/browser/quickInput.ts @bpasero
+/src/vs/platform/quickinput/browser/quickPickPin.ts @Tyriar @meganrogge
+/src/vs/platform/remote/browser/ @alexdima
+/src/vs/platform/remote/common/ @connor4312 @alexdima
+/src/vs/platform/remote/electron-sandbox/ @bpasero @joyceerhl
+/src/vs/platform/request/ @FantasqueX @alexr00
+/src/vs/platform/sharedProcess/electron-browser/ @connor4312
+/src/vs/platform/sharedProcess/electron-main/ @bpasero
+/src/vs/platform/sharedProcess/node/ @bpasero @mjbvz
+/src/vs/platform/sign/ @alexdima
+/src/vs/platform/state/ @sbatten
+/src/vs/platform/storage/common/ @mjbvz
+/src/vs/platform/storage/test/ @bpasero
+/src/vs/platform/telemetry/browser/ @lramos15 @sbatten
+/src/vs/platform/telemetry/common/ @lramos15
+/src/vs/platform/telemetry/common/1dsAppender.ts @sbatten
+/src/vs/platform/telemetry/common/commonProperties.ts @sbatten
+/src/vs/platform/telemetry/common/telemetryUtils.ts @sbatten
+/src/vs/platform/telemetry/electron-sandbox/ @bpasero @joyceerhl
+/src/vs/platform/telemetry/node/ @lramos15 @sbatten
+/src/vs/platform/telemetry/test/ @lramos15
+/src/vs/platform/telemetry/test/browser/1dsAppender.test.ts @sbatten
+/src/vs/platform/terminal/common/capabilities/ @mjbvz
+/src/vs/platform/terminal/common/terminal.ts @Tyriar @meganrogge
+/src/vs/platform/terminal/common/terminalAutoResponder.ts @Tyriar
+/src/vs/platform/terminal/common/terminalDataBuffering.ts @connor4312
+/src/vs/platform/terminal/common/terminalPlatformConfiguration.ts @Tyriar @gjsjohnmurray
+/src/vs/platform/terminal/common/terminalProcess.ts @meganrogge
+/src/vs/platform/terminal/common/terminalProfiles.ts @Tyriar
+/src/vs/platform/terminal/common/xterm/ @mjbvz @Tyriar @jrieken
+/src/vs/platform/terminal/node/ @Tyriar
+/src/vs/platform/terminal/node/ptyService.ts @meganrogge
+/src/vs/platform/terminal/node/terminalEnvironment.ts @meganrogge
+/src/vs/platform/terminal/node/terminalProcess.ts @babakks @pingren
+/src/vs/platform/terminal/test/ @Tyriar
+/src/vs/platform/test/ @bpasero
+/src/vs/platform/theme/ @aiday-mar @alexdima @mjbvz @lszomoru
+/src/vs/platform/tunnel/ @connor4312
+/src/vs/platform/undoRedo/ @jrieken
+/src/vs/platform/update/ @joaomoreno
+/src/vs/platform/userDataProfile/browser/ @sandy081 @mjbvz
+/src/vs/platform/userDataProfile/common/ @sandy081 @bpasero
+/src/vs/platform/userDataProfile/electron-main/ @sandy081
+/src/vs/platform/userDataProfile/electron-sandbox/ @sandy081 @bpasero
+/src/vs/platform/userDataProfile/node/ @mjbvz
+/src/vs/platform/userDataProfile/test/ @sandy081
+/src/vs/platform/userDataSync/common/abstractSynchronizer.ts @sandy081
+/src/vs/platform/userDataSync/common/globalStateSync.ts @sandy081
+/src/vs/platform/userDataSync/common/userDataAutoSyncService.ts @connor4312
+/src/vs/platform/userDataSync/common/userDataSync.ts @mjbvz @sandy081
+/src/vs/platform/userDataSync/common/userDataSyncService.ts @connor4312
+/src/vs/platform/userDataSync/common/userDataSyncServiceIpc.ts @mjbvz
+/src/vs/platform/userDataSync/common/userDataSyncStoreService.ts @mjbvz @sandy081
+/src/vs/platform/webview/ @jrieken
+/src/vs/platform/window/ @sandy081 @bpasero
+/src/vs/platform/windows/electron-main/windowImpl.ts @bpasero @sandy081 @sbatten
+/src/vs/platform/windows/electron-main/windows.ts @sandy081
+/src/vs/platform/windows/electron-main/windowsMainService.ts @sandy081 @bpasero
+/src/vs/platform/windows/electron-main/windowsStateHandler.ts @bpasero
+/src/vs/platform/windows/test/ @mjbvz @sbatten
+/src/vs/platform/workspace/common/editSessions.ts @joyceerhl @jrieken
+/src/vs/platform/workspace/common/workspace.ts @bpasero
+/src/vs/platform/workspaces/ @bpasero
+/src/vs/platform/workspaces/electron-main/workspacesManagementMainService.ts @sandy081
+/src/vs/server/node/remoteAgentEnvironmentImpl.ts @sandy081
+/src/vs/server/node/remoteExtensionHostAgentCli.ts @sandy081
+/src/vs/server/node/remoteTerminalChannel.ts @Tyriar
+/src/vs/server/node/server.cli.ts @Tyriar @meganrogge
+/src/vs/server/node/serverServices.ts @lramos15 @sbatten
+/src/vs/workbench/api/browser/extensionHost.contribution.ts @bpasero
+/src/vs/workbench/api/browser/mainThreadBulkEdits.ts @jrieken
+/src/vs/workbench/api/browser/mainThreadCLICommands.ts @sandy081
+/src/vs/workbench/api/browser/mainThreadComments.ts @alexr00 @joyceerhl
+/src/vs/workbench/api/browser/mainThreadDebugService.ts @andreamah
+/src/vs/workbench/api/browser/mainThreadDocumentContentProviders.ts @connor4312
+/src/vs/workbench/api/browser/mainThreadDocumentsAndEditors.ts @bpasero @lramos15
+/src/vs/workbench/api/browser/mainThreadEditors.ts @bpasero @lramos15
+/src/vs/workbench/api/browser/mainThreadEditorTabs.ts @bpasero @lramos15
+/src/vs/workbench/api/browser/mainThreadFileSystemEventService.ts @jrieken
+/src/vs/workbench/api/browser/mainThreadLanguageFeatures.ts @jrieken @mjbvz
+/src/vs/workbench/api/browser/mainThreadMessageService.ts @jrieken
+/src/vs/workbench/api/browser/mainThreadNotebookDocumentsAndEditors.ts @rebornix
+/src/vs/workbench/api/browser/mainThreadNotebookEditors.ts @rebornix @bpasero
+/src/vs/workbench/api/browser/mainThreadNotebookKernels.ts @rebornix
+/src/vs/workbench/api/browser/mainThreadOutputService.ts @connor4312
+/src/vs/workbench/api/browser/mainThreadSecretState.ts @TylerLeonhardt
+/src/vs/workbench/api/browser/mainThreadTelemetry.ts @lramos15
+/src/vs/workbench/api/browser/mainThreadTerminalService.ts @meganrogge @SvanT
+/src/vs/workbench/api/browser/mainThreadTesting.ts @connor4312
+/src/vs/workbench/api/browser/mainThreadTreeViews.ts @benibenj
+/src/vs/workbench/api/browser/mainThreadWebviewPanels.ts @mjbvz
+/src/vs/workbench/api/browser/mainThreadWorkspace.ts @joyceerhl @jrieken
+/src/vs/workbench/api/browser/viewsExtensionPoint.ts @alexr00 @lramos15
+/src/vs/workbench/api/common/configurationExtensionPoint.ts @rzhao271
+/src/vs/workbench/api/common/extHost.api.impl.ts @jrieken @mjbvz @lramos15
+/src/vs/workbench/api/common/extHost.common.services.ts @jrieken @lramos15 @ChaseKnowlden
+/src/vs/workbench/api/common/extHost.protocol.ts @mjbvz @benibenj @jrieken @alexr00
+/src/vs/workbench/api/common/extHostComments.ts @connor4312 @alexr00
+/src/vs/workbench/api/common/extHostExtensionActivator.ts @jrieken
+/src/vs/workbench/api/common/extHostExtensionService.ts @jrieken @bpasero
+/src/vs/workbench/api/common/extHostLanguageFeatures.ts @mjbvz @connor4312
+/src/vs/workbench/api/common/extHostNotebook.ts @connor4312
+/src/vs/workbench/api/common/extHostNotebookEditor.ts @mjbvz
+/src/vs/workbench/api/common/extHostNotebookKernels.ts @roblourens
+/src/vs/workbench/api/common/extHostProgress.ts @connor4312
+/src/vs/workbench/api/common/extHostQuickOpen.ts @connor4312
+/src/vs/workbench/api/common/extHostRequireInterceptor.ts @jrieken
+/src/vs/workbench/api/common/extHostSecrets.ts @ChaseKnowlden @bpasero
+/src/vs/workbench/api/common/extHostSecretState.ts @ChaseKnowlden @bpasero
+/src/vs/workbench/api/common/extHostTelemetryLogService.ts @lramos15
+/src/vs/workbench/api/common/extHostTesting.ts @connor4312
+/src/vs/workbench/api/common/extHostTestItem.ts @connor4312
+/src/vs/workbench/api/common/extHostTreeViews.ts @alexr00 @benibenj
+/src/vs/workbench/api/common/extHostTypeConverters.ts @connor4312 @mjbvz @bpasero
+/src/vs/workbench/api/common/extHostTypes.ts @mjbvz @jrieken @alexr00
+/src/vs/workbench/api/common/extHostWebviewView.ts @alexr00
+/src/vs/workbench/api/common/extHostWorkspace.ts @joyceerhl @jrieken
+/src/vs/workbench/api/node/extensionHostProcess.ts @alexdima
+/src/vs/workbench/api/node/extHost.node.services.ts @jrieken @sandy081
+/src/vs/workbench/api/node/extHostDebugService.ts @roblourens
+/src/vs/workbench/api/test/browser/extHostApiCommands.test.ts @jrieken
+/src/vs/workbench/api/test/browser/extHostConfiguration.test.ts @joyceerhl @joaomoreno
+/src/vs/workbench/api/test/browser/extHostLanguageFeatures.test.ts @jrieken @Semesse
+/src/vs/workbench/api/test/browser/extHostTesting.test.ts @connor4312
+/src/vs/workbench/api/test/browser/extHostWorkspace.test.ts @joyceerhl @joaomoreno
+/src/vs/workbench/api/test/browser/mainThreadBulkEdits.test.ts @jrieken
+/src/vs/workbench/api/test/browser/mainThreadDocumentsAndEditors.test.ts @bpasero @lramos15
+/src/vs/workbench/api/test/browser/mainThreadEditors.test.ts @jrieken
+/src/vs/workbench/api/worker/ @jrieken
+/src/vs/workbench/browser/actions.ts @jrieken
+/src/vs/workbench/browser/actions/layoutActions.ts @sbatten @miguelsolorio
+/src/vs/workbench/browser/actions/listCommands.ts @rebornix
+/src/vs/workbench/browser/actions/textInputActions.ts @bpasero
+/src/vs/workbench/browser/checkbox.ts @benibenj
+/src/vs/workbench/browser/codeeditor.ts @jrieken @bpasero
+/src/vs/workbench/browser/contextkeys.ts @bpasero
+/src/vs/workbench/browser/dnd.ts @bpasero
+/src/vs/workbench/browser/labels.ts @alexr00
+/src/vs/workbench/browser/layout.ts @bpasero @lramos15
+/src/vs/workbench/browser/layoutState.ts @bpasero
+/src/vs/workbench/browser/media/ @lszomoru
+/src/vs/workbench/browser/part.ts @bpasero
+/src/vs/workbench/browser/parts/* @bpasero
+/src/vs/workbench/browser/parts/activitybar/activitybarActions.ts @bpasero
+/src/vs/workbench/browser/parts/activitybar/activitybarPart.ts @connor4312 @joyceerhl
+/src/vs/workbench/browser/parts/auxiliarybar/ @connor4312 @mjbvz
+/src/vs/workbench/browser/parts/banner/ @jrieken
+/src/vs/workbench/browser/parts/compositeBar.ts @connor4312
+/src/vs/workbench/browser/parts/compositeBarActions.ts @jrieken
+/src/vs/workbench/browser/parts/dialogs/ @bpasero
+/src/vs/workbench/browser/parts/editor/breadcrumbsControl.ts @connor4312 @mjbvz @sbatten
+/src/vs/workbench/browser/parts/editor/breadcrumbsModel.ts @jrieken
+/src/vs/workbench/browser/parts/editor/editor.contribution.ts @bpasero @jrieken
+/src/vs/workbench/browser/parts/editor/editorActions.ts @connor4312 @bpasero
+/src/vs/workbench/browser/parts/editor/editorCommands.ts @connor4312 @bpasero
+/src/vs/workbench/browser/parts/editor/editorConfiguration.ts @bpasero
+/src/vs/workbench/browser/parts/editor/editorDropTarget.ts @mjbvz
+/src/vs/workbench/browser/parts/editor/editorGroupView.ts @jrieken
+/src/vs/workbench/browser/parts/editor/editorPart.ts @bpasero @jrieken
+/src/vs/workbench/browser/parts/editor/editorPlaceholder.ts @bpasero
+/src/vs/workbench/browser/parts/editor/editorStatus.ts @lramos15
+/src/vs/workbench/browser/parts/editor/media/ @miguelsolorio
+/src/vs/workbench/browser/parts/editor/tabsTitleControl.ts @pingren @daviddossett
+/src/vs/workbench/browser/parts/editor/textDiffEditor.ts @mjbvz
+/src/vs/workbench/browser/parts/editor/textEditor.ts @mjbvz
+/src/vs/workbench/browser/parts/editor/titleControl.ts @jrieken
+/src/vs/workbench/browser/parts/notifications/ @connor4312
+/src/vs/workbench/browser/parts/notifications/notificationsStatus.ts @mjbvz
+/src/vs/workbench/browser/parts/paneCompositePart.ts @jrieken
+/src/vs/workbench/browser/parts/panel/ @connor4312
+/src/vs/workbench/browser/parts/panel/panelActions.ts @mjbvz
+/src/vs/workbench/browser/parts/panel/panelPart.ts @daviddossett @joyceerhl
+/src/vs/workbench/browser/parts/sidebar/ @connor4312
+/src/vs/workbench/browser/parts/statusbar/ @bpasero
+/src/vs/workbench/browser/parts/statusbar/statusbarPart.ts @jrieken
+/src/vs/workbench/browser/parts/titlebar/commandCenterControl.ts @jrieken @sbatten
+/src/vs/workbench/browser/parts/titlebar/menubarControl.ts @connor4312
+/src/vs/workbench/browser/parts/titlebar/titlebarPart.ts @sbatten @jrieken @bpasero
+/src/vs/workbench/browser/parts/views/media/ @benibenj @alexr00
+/src/vs/workbench/browser/parts/views/treeView.ts @alexr00 @benibenj
+/src/vs/workbench/browser/parts/views/viewPane.ts @benibenj @alexr00
+/src/vs/workbench/browser/parts/views/viewsService.ts @sandy081 @bpasero @jrieken
+/src/vs/workbench/browser/web.api.ts @alexdima
+/src/vs/workbench/browser/web.factory.ts @alexr00
+/src/vs/workbench/browser/web.main.ts @sandy081 @bpasero
+/src/vs/workbench/browser/window.ts @joyceerhl
+/src/vs/workbench/browser/workbench.contribution.ts @bpasero @digitarald
+/src/vs/workbench/common/actions.ts @jrieken
+/src/vs/workbench/common/contextkeys.ts @jrieken
+/src/vs/workbench/common/contributions.ts @bpasero
+/src/vs/workbench/common/editor.ts @lramos15
+/src/vs/workbench/common/editor/diffEditorInput.ts @connor4312
+/src/vs/workbench/common/editor/editorInput.ts @lramos15
+/src/vs/workbench/common/editor/textResourceEditorInput.ts @lramos15
+/src/vs/workbench/common/notifications.ts @connor4312
+/src/vs/workbench/common/theme.ts @bpasero
+/src/vs/workbench/common/views.ts @benibenj @alexr00
+/src/vs/workbench/contrib/audioCues/browser/audioCues.contribution.ts @bpasero @jrieken
+/src/vs/workbench/contrib/audioCues/browser/audioCueService.ts @isidorn
+/src/vs/workbench/contrib/audioCues/browser/media/ @isidorn
+/src/vs/workbench/contrib/bulkEdit/browser/* @jrieken
+/src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEdit.contribution.ts @connor4312 @bpasero @joyceerhl
+/src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPane.ts @jrieken
+/src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditPreview.ts @jrieken
+/src/vs/workbench/contrib/bulkEdit/browser/preview/bulkEditTree.ts @jrieken
+/src/vs/workbench/contrib/codeActions/ @bpasero
+/src/vs/workbench/contrib/codeEditor/browser/accessibility/ @connor4312
+/src/vs/workbench/contrib/codeEditor/browser/diffEditorHelper.ts @hediet
+/src/vs/workbench/contrib/codeEditor/browser/find/ @Tyriar
+/src/vs/workbench/contrib/codeEditor/browser/inspectEditorTokens/ @connor4312
+/src/vs/workbench/contrib/codeEditor/browser/languageConfigurationExtensionPoint.ts @alexdima
+/src/vs/workbench/contrib/codeEditor/browser/outline/ @bpasero
+/src/vs/workbench/contrib/codeEditor/browser/saveParticipants.ts @bpasero
+/src/vs/workbench/contrib/codeEditor/browser/suggestEnabledInput/ @daviddossett @mjbvz
+/src/vs/workbench/contrib/codeEditor/browser/toggleMinimap.ts @sbatten
+/src/vs/workbench/contrib/codeEditor/browser/toggleMultiCursorModifier.ts @bpasero
+/src/vs/workbench/contrib/codeEditor/browser/toggleWordWrap.ts @bpasero
+/src/vs/workbench/contrib/codeEditor/browser/untitledTextEditorHint.ts @jrieken
+/src/vs/workbench/contrib/codeEditor/electron-sandbox/ @bpasero
+/src/vs/workbench/contrib/comments/browser/commentGlyphWidget.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentMenus.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentNode.ts @connor4312 @alexr00
+/src/vs/workbench/contrib/comments/browser/commentReply.ts @connor4312
+/src/vs/workbench/contrib/comments/browser/comments.contribution.ts @jrieken
+/src/vs/workbench/contrib/comments/browser/comments.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentsEditorContribution.ts @alexr00 @connor4312
+/src/vs/workbench/contrib/comments/browser/commentsFilterOptions.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentsTreeViewer.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentsView.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentsViewActions.ts @alexr00 @lramos15
+/src/vs/workbench/contrib/comments/browser/commentThreadHeader.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentThreadWidget.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/commentThreadZoneWidget.ts @alexr00
+/src/vs/workbench/contrib/comments/browser/media/ @alexr00
+/src/vs/workbench/contrib/comments/browser/media/review.css @jrieken
+/src/vs/workbench/contrib/comments/browser/reactionsAction.ts @rebornix
+/src/vs/workbench/contrib/configExporter/ @bpasero
+/src/vs/workbench/contrib/contextmenu/ @bpasero
+/src/vs/workbench/contrib/customEditor/browser/customEditor.contribution.ts @bpasero @jrieken
+/src/vs/workbench/contrib/customEditor/browser/customEditorInput.ts @mjbvz
+/src/vs/workbench/contrib/customEditor/browser/customEditorInputFactory.ts @mjbvz
+/src/vs/workbench/contrib/customEditor/browser/customEditors.ts @bpasero
+/src/vs/workbench/contrib/debug/browser/breakpointEditorContribution.ts @connor4312 @jrieken
+/src/vs/workbench/contrib/debug/browser/breakpointsView.ts @connor4312 @jrieken @mjbvz
+/src/vs/workbench/contrib/debug/browser/callStackView.ts @jrieken
+/src/vs/workbench/contrib/debug/browser/debug.contribution.ts @joyceerhl @bpasero
+/src/vs/workbench/contrib/debug/browser/debugCommands.ts @andreamah
+/src/vs/workbench/contrib/debug/browser/debugConfigurationManager.ts @roblourens
+/src/vs/workbench/contrib/debug/browser/debugMemory.ts @mjbvz
+/src/vs/workbench/contrib/debug/browser/debugQuickAccess.ts @roblourens
+/src/vs/workbench/contrib/debug/browser/debugService.ts @roblourens @connor4312
+/src/vs/workbench/contrib/debug/browser/debugSession.ts @roblourens
+/src/vs/workbench/contrib/debug/browser/debugStatus.ts @connor4312
+/src/vs/workbench/contrib/debug/browser/debugToolBar.ts @connor4312 @jrieken
+/src/vs/workbench/contrib/debug/browser/disassemblyView.ts @jrieken @mjbvz
+/src/vs/workbench/contrib/debug/browser/media/ @roblourens
+/src/vs/workbench/contrib/debug/browser/rawDebugSession.ts @connor4312
+/src/vs/workbench/contrib/debug/browser/repl.ts @connor4312 @jrieken
+/src/vs/workbench/contrib/debug/browser/replFilter.ts @connor4312
+/src/vs/workbench/contrib/debug/browser/variablesView.ts @roblourens @jrieken
+/src/vs/workbench/contrib/debug/browser/watchExpressionsView.ts @jrieken
+/src/vs/workbench/contrib/debug/common/debug.ts @roblourens
+/src/vs/workbench/contrib/debug/common/debugContentProvider.ts @connor4312
+/src/vs/workbench/contrib/debug/common/debugProtocol.d.ts @roblourens
+/src/vs/workbench/contrib/debug/common/debugViewModel.ts @jrieken
+/src/vs/workbench/contrib/debug/electron-sandbox/ @bpasero @joyceerhl
+/src/vs/workbench/contrib/debug/node/telemetryApp.ts @sbatten
+/src/vs/workbench/contrib/debug/node/terminals.ts @roblourens
+/src/vs/workbench/contrib/debug/test/browser/ @andreamah
+/src/vs/workbench/contrib/debug/test/node/streamDebugAdapter.test.ts @connor4312
+/src/vs/workbench/contrib/debug/test/node/terminals.test.ts @roblourens
+/src/vs/workbench/contrib/deprecatedExtensionMigrator/ @bpasero
+/src/vs/workbench/contrib/editSessions/ @joyceerhl
+/src/vs/workbench/contrib/editSessions/browser/editSessions.contribution.ts @rzhao271
+/src/vs/workbench/contrib/editSessions/browser/editSessionsFileSystemProvider.ts @rebornix
+/src/vs/workbench/contrib/editSessions/browser/editSessionsStorageService.ts @meganrogge
+/src/vs/workbench/contrib/editSessions/browser/editSessionsViews.ts @lramos15
+/src/vs/workbench/contrib/editSessions/common/ @lramos15
+/src/vs/workbench/contrib/editSessions/test/ @joaomoreno
+/src/vs/workbench/contrib/emmet/ @rzhao271
+/src/vs/workbench/contrib/experiments/browser/ @bpasero
+/src/vs/workbench/contrib/experiments/test/ @connor4312 @mjbvz
+/src/vs/workbench/contrib/extensions/browser/browserRuntimeExtensionsEditor.ts @TylerLeonhardt
+/src/vs/workbench/contrib/extensions/browser/extensionEditor.ts @connor4312 @mjbvz
+/src/vs/workbench/contrib/extensions/browser/extensionRecommendationNotificationService.ts @jrieken
+/src/vs/workbench/contrib/extensions/browser/extensions.contribution.ts @sandy081 @jrieken @bpasero
+/src/vs/workbench/contrib/extensions/browser/extensionsActions.ts @bpasero @jrieken @meganrogge
+/src/vs/workbench/contrib/extensions/browser/extensionsList.ts @sandy081
+/src/vs/workbench/contrib/extensions/browser/extensionsViewlet.ts @connor4312 @jrieken
+/src/vs/workbench/contrib/extensions/browser/extensionsWidgets.ts @connor4312
+/src/vs/workbench/contrib/extensions/browser/extensionsWorkbenchService.ts @sandy081 @bpasero
+/src/vs/workbench/contrib/extensions/browser/media/ @miguelsolorio
+/src/vs/workbench/contrib/extensions/browser/webRecommendations.ts @mjbvz
+/src/vs/workbench/contrib/extensions/common/ @TylerLeonhardt
+/src/vs/workbench/contrib/extensions/electron-sandbox/extensions.contribution.ts @bpasero
+/src/vs/workbench/contrib/extensions/electron-sandbox/extensionsAutoProfiler.ts @digitarald
+/src/vs/workbench/contrib/extensions/electron-sandbox/remoteExtensionsInit.ts @sandy081
+/src/vs/workbench/contrib/extensions/electron-sandbox/runtimeExtensionsEditor.ts @TylerLeonhardt
+/src/vs/workbench/contrib/extensions/test/ @sandy081
+/src/vs/workbench/contrib/extensions/test/electron-browser/extensionRecommendationsService.test.ts @connor4312
+/src/vs/workbench/contrib/externalTerminal/ @bpasero
+/src/vs/workbench/contrib/externalUriOpener/common/externalUriOpener.contribution.ts @jrieken
+/src/vs/workbench/contrib/externalUriOpener/common/externalUriOpenerService.ts @TylerLeonhardt
+/src/vs/workbench/contrib/feedback/ @bpasero
+/src/vs/workbench/contrib/files/browser/editors/ @jrieken
+/src/vs/workbench/contrib/files/browser/editors/fileEditorInput.ts @lramos15
+/src/vs/workbench/contrib/files/browser/editors/textFileSaveErrorHandler.ts @connor4312
+/src/vs/workbench/contrib/files/browser/explorerService.ts @connor4312 @lramos15
+/src/vs/workbench/contrib/files/browser/explorerViewlet.ts @joyceerhl
+/src/vs/workbench/contrib/files/browser/fileActions.ts @lramos15
+/src/vs/workbench/contrib/files/browser/fileCommands.ts @bpasero
+/src/vs/workbench/contrib/files/browser/files.contribution.ts @lramos15 @bpasero
+/src/vs/workbench/contrib/files/browser/files.ts @lramos15
+/src/vs/workbench/contrib/files/browser/views/explorerView.ts @bpasero @connor4312
+/src/vs/workbench/contrib/files/browser/views/explorerViewer.ts @lramos15 @Semesse
+/src/vs/workbench/contrib/files/browser/views/openEditorsView.ts @jrieken
+/src/vs/workbench/contrib/files/common/ @lramos15
+/src/vs/workbench/contrib/files/test/ @bpasero @lramos15
+/src/vs/workbench/contrib/format/ @bpasero @lramos15
+/src/vs/workbench/contrib/inlayHints/ @connor4312
+/src/vs/workbench/contrib/interactive/ @rebornix
+/src/vs/workbench/contrib/interactive/browser/docs/ @amunger
+/src/vs/workbench/contrib/interactive/browser/interactive.contribution.ts @lramos15
+/src/vs/workbench/contrib/interactive/browser/interactiveEditor.ts @connor4312
+/src/vs/workbench/contrib/issue/ @bpasero
+/src/vs/workbench/contrib/languageDetection/ @bpasero
+/src/vs/workbench/contrib/languageStatus/ @bpasero
+/src/vs/workbench/contrib/list/ @bpasero
+/src/vs/workbench/contrib/localHistory/ @bpasero
+/src/vs/workbench/contrib/localization/ @bpasero
+/src/vs/workbench/contrib/logs/browser/ @bpasero
+/src/vs/workbench/contrib/logs/common/ @lramos15
+/src/vs/workbench/contrib/logs/common/logs.contribution.ts @bpasero
+/src/vs/workbench/contrib/logs/electron-sandbox/ @bpasero
+/src/vs/workbench/contrib/markers/browser/markers.contribution.ts @bpasero @joyceerhl
+/src/vs/workbench/contrib/markers/browser/markersFileDecorations.ts @bpasero
+/src/vs/workbench/contrib/markers/browser/markersModel.ts @lszomoru
+/src/vs/workbench/contrib/markers/browser/markersTable.ts @lszomoru
+/src/vs/workbench/contrib/markers/browser/markersTreeViewer.ts @lszomoru
+/src/vs/workbench/contrib/markers/browser/markersView.ts @connor4312
+/src/vs/workbench/contrib/markers/browser/markersViewActions.ts @connor4312 @jrieken @mjbvz
+/src/vs/workbench/contrib/mergeEditor/ @hediet
+/src/vs/workbench/contrib/mergeEditor/browser/* @bpasero
+/src/vs/workbench/contrib/mergeEditor/browser/commands/ @bpasero
+/src/vs/workbench/contrib/mergeEditor/browser/model/mergeEditorModel.ts @bpasero
+/src/vs/workbench/contrib/mergeEditor/browser/view/colors.ts @daviddossett
+/src/vs/workbench/contrib/mergeEditor/browser/view/editorGutter.ts @bpasero
+/src/vs/workbench/contrib/mergeEditor/browser/view/editors/codeEditorView.ts @bpasero
+/src/vs/workbench/contrib/mergeEditor/browser/view/editors/inputCodeEditorView.ts @jrieken
+/src/vs/workbench/contrib/mergeEditor/browser/view/editors/resultCodeEditorView.ts @jrieken
+/src/vs/workbench/contrib/mergeEditor/browser/view/media/ @daviddossett @jrieken
+/src/vs/workbench/contrib/mergeEditor/browser/view/mergeEditor.ts @jrieken
+/src/vs/workbench/contrib/mergeEditor/common/ @jrieken
+/src/vs/workbench/contrib/notebook/browser/* @rebornix
+/src/vs/workbench/contrib/notebook/browser/contrib/breakpoints/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/cellStatusBar/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/clipboard/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/editorStatusBar/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/find/findModel.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/contrib/find/notebookFind.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/contrib/find/notebookFindReplaceWidget.ts @jrieken @Tyriar
+/src/vs/workbench/contrib/notebook/browser/contrib/find/notebookFindWidget.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/contrib/gettingStarted/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/marker/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/outline/ @bpasero @rebornix
+/src/vs/workbench/contrib/notebook/browser/contrib/profile/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/contrib/undoRedo/ @bpasero
+/src/vs/workbench/contrib/notebook/browser/controller/coreActions.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/controller/executeActions.ts @andreamah
+/src/vs/workbench/contrib/notebook/browser/diff/diffComponents.ts @hediet
+/src/vs/workbench/contrib/notebook/browser/diff/notebookDiffActions.ts @lramos15 @bpasero
+/src/vs/workbench/contrib/notebook/browser/diff/notebookTextDiffEditor.ts @rebornix @connor4312
+/src/vs/workbench/contrib/notebook/browser/diff/notebookTextDiffList.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/notebook.contribution.ts @bpasero @jrieken
+/src/vs/workbench/contrib/notebook/browser/notebookBrowser.ts @roblourens
+/src/vs/workbench/contrib/notebook/browser/notebookEditor.ts @connor4312
+/src/vs/workbench/contrib/notebook/browser/notebookEditorWidget.ts @roblourens @mjbvz
+/src/vs/workbench/contrib/notebook/browser/services/notebookCellStatusBarServiceImpl.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/services/notebookEditorService.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/services/notebookEditorServiceImpl.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/services/notebookExecutionServiceImpl.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/services/notebookExecutionStateServiceImpl.ts @roblourens @andreamah
+/src/vs/workbench/contrib/notebook/browser/services/notebookKernelServiceImpl.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/services/notebookRendererMessagingServiceImpl.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/services/notebookServiceImpl.ts @rebornix @lramos15
+/src/vs/workbench/contrib/notebook/browser/view/* @rebornix
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/cellContextKeys.ts @jrieken
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/cellDnd.ts @mjbvz
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/cellFocusIndicator.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/cellOutput.ts @jrieken @rebornix
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/cellToolbars.ts @jrieken
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/codeCell.ts @roblourens
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/codeCellRunToolbar.ts @roblourens
+/src/vs/workbench/contrib/notebook/browser/view/cellParts/markupCell.ts @mjbvz @rebornix
+/src/vs/workbench/contrib/notebook/browser/view/renderers/backLayerWebView.ts @rebornix @mjbvz
+/src/vs/workbench/contrib/notebook/browser/view/renderers/cellRenderer.ts @mjbvz
+/src/vs/workbench/contrib/notebook/browser/view/renderers/webviewMessages.ts @Yoyokrazy @rebornix
+/src/vs/workbench/contrib/notebook/browser/view/renderers/webviewPreloads.ts @rebornix @mjbvz
+/src/vs/workbench/contrib/notebook/browser/viewModel/baseCellViewModel.ts @connor4312 @mjbvz
+/src/vs/workbench/contrib/notebook/browser/viewModel/cellEditorOptions.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/viewModel/cellOutputViewModel.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/viewModel/cellSelectionCollection.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/viewModel/codeCellViewModel.ts @rebornix @roblourens
+/src/vs/workbench/contrib/notebook/browser/viewModel/markupCellViewModel.ts @rebornix
+/src/vs/workbench/contrib/notebook/browser/viewModel/notebookViewModelImpl.ts @mjbvz @rebornix
+/src/vs/workbench/contrib/notebook/browser/viewModel/viewContext.ts @roblourens
+/src/vs/workbench/contrib/notebook/browser/viewParts/ @andreamah @rebornix
+/src/vs/workbench/contrib/notebook/common/model/ @rebornix
+/src/vs/workbench/contrib/notebook/common/notebookCommon.ts @hediet
+/src/vs/workbench/contrib/notebook/common/notebookDiffEditorInput.ts @rebornix @lramos15
+/src/vs/workbench/contrib/notebook/common/notebookExecutionStateService.ts @andreamah
+/src/vs/workbench/contrib/notebook/common/notebookService.ts @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/cellOperations.test.ts @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/contrib/ @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/contrib/notebookUndoRedo.test.ts @ProKashif
+/src/vs/workbench/contrib/notebook/test/browser/notebookExecutionService.test.ts @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/notebookExecutionStateService.test.ts @roblourens
+/src/vs/workbench/contrib/notebook/test/browser/notebookKernelService.test.ts @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/notebookRendererMessagingService.test.ts @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/notebookServiceImpl.test.ts @rebornix @lramos15
+/src/vs/workbench/contrib/notebook/test/browser/notebookTextModel.test.ts @rebornix
+/src/vs/workbench/contrib/notebook/test/browser/notebookViewModel.test.ts @roblourens
+/src/vs/workbench/contrib/notebook/test/browser/testNotebookEditor.ts @roblourens
+/src/vs/workbench/contrib/offline/ @joaomoreno @bpasero
+/src/vs/workbench/contrib/outline/ @jrieken
+/src/vs/workbench/contrib/output/browser/output.contribution.ts @bpasero @joyceerhl @jrieken @sandy081
+/src/vs/workbench/contrib/output/browser/outputView.ts @connor4312
+/src/vs/workbench/contrib/output/common/outputChannelModel.ts @connor4312
+/src/vs/workbench/contrib/output/common/outputChannelModelService.ts @jrieken @sandy081
+/src/vs/workbench/contrib/output/electron-sandbox/ @jrieken @sandy081
+/src/vs/workbench/contrib/performance/ @bpasero
+/src/vs/workbench/contrib/preferences/browser/keybindingWidgets.ts @sandy081
+/src/vs/workbench/contrib/preferences/browser/keyboardLayoutPicker.ts @bpasero
+/src/vs/workbench/contrib/preferences/browser/preferences.contribution.ts @connor4312 @rzhao271 @mjbvz
+/src/vs/workbench/contrib/preferences/browser/preferencesWidgets.ts @rebornix
+/src/vs/workbench/contrib/preferences/browser/settingsEditor2.ts @mjbvz @connor4312 @rzhao271
+/src/vs/workbench/contrib/preferences/browser/settingsEditorSettingIndicators.ts @rzhao271
+/src/vs/workbench/contrib/preferences/browser/settingsLayout.ts @hediet
+/src/vs/workbench/contrib/preferences/browser/settingsSearchMenu.ts @jrieken
+/src/vs/workbench/contrib/preferences/browser/settingsTree.ts @connor4312 @mjbvz
+/src/vs/workbench/contrib/preferences/browser/settingsTreeModels.ts @mjbvz @rzhao271
+/src/vs/workbench/contrib/preferences/browser/settingsWidgets.ts @connor4312 @mjbvz
+/src/vs/workbench/contrib/preferences/common/ @lramos15
+/src/vs/workbench/contrib/quickaccess/ @jrieken
+/src/vs/workbench/contrib/relauncher/ @connor4312 @sandy081
+/src/vs/workbench/contrib/remote/browser/remote.contribution.ts @bpasero
+/src/vs/workbench/contrib/remote/browser/remote.ts @connor4312 @joyceerhl
+/src/vs/workbench/contrib/remote/browser/remoteExplorer.ts @connor4312 @joyceerhl
+/src/vs/workbench/contrib/remote/browser/remoteIndicator.ts @aeschli @meganrogge
+/src/vs/workbench/contrib/remote/browser/tunnelView.ts @alexr00 @jrieken
+/src/vs/workbench/contrib/remote/common/ @bpasero
+/src/vs/workbench/contrib/remote/electron-sandbox/ @bpasero @aeschli
+/src/vs/workbench/contrib/sash/ @bpasero
+/src/vs/workbench/contrib/scm/browser/activity.ts @lszomoru
+/src/vs/workbench/contrib/scm/browser/dirtydiffDecorator.ts @hediet @jrieken
+/src/vs/workbench/contrib/scm/browser/media/ @lszomoru @joaomoreno
+/src/vs/workbench/contrib/scm/browser/menus.ts @jrieken
+/src/vs/workbench/contrib/scm/browser/scm.contribution.ts @lszomoru @sandy081 @bpasero
+/src/vs/workbench/contrib/scm/browser/scmRepositoriesViewPane.ts @jrieken
+/src/vs/workbench/contrib/scm/browser/scmViewPane.ts @lszomoru @alexr00
+/src/vs/workbench/contrib/scm/browser/util.ts @jrieken @rebornix
+/src/vs/workbench/contrib/search/browser/media/ @roblourens
+/src/vs/workbench/contrib/search/browser/patternInputWidget.ts @connor4312
+/src/vs/workbench/contrib/search/browser/replaceContributions.ts @bpasero
+/src/vs/workbench/contrib/search/browser/replaceService.ts @connor4312
+/src/vs/workbench/contrib/search/browser/search.contribution.ts @connor4312 @joyceerhl @andreamah
+/src/vs/workbench/contrib/search/browser/searchActions.ts @andreamah @connor4312
+/src/vs/workbench/contrib/search/browser/searchResultsView.ts @andreamah
+/src/vs/workbench/contrib/search/browser/searchView.ts @andreamah @jrieken
+/src/vs/workbench/contrib/search/browser/searchWidget.ts @Tyriar
+/src/vs/workbench/contrib/search/common/ @andreamah
+/src/vs/workbench/contrib/search/test/common/ @andreamah
+/src/vs/workbench/contrib/search/test/electron-browser/ @lramos15
+/src/vs/workbench/contrib/searchEditor/browser/searchEditor.contribution.ts @bpasero
+/src/vs/workbench/contrib/searchEditor/browser/searchEditorActions.ts @lramos15
+/src/vs/workbench/contrib/searchEditor/browser/searchEditorInput.ts @lramos15 @roblourens
+/src/vs/workbench/contrib/snippets/ @jrieken
+/src/vs/workbench/contrib/snippets/browser/snippetCodeActionProvider.ts @justschen
+/src/vs/workbench/contrib/snippets/browser/snippets.contribution.ts @bpasero
+/src/vs/workbench/contrib/splash/ @bpasero
+/src/vs/workbench/contrib/surveys/ @bpasero
+/src/vs/workbench/contrib/tags/ @bpasero
+/src/vs/workbench/contrib/tags/electron-sandbox/workspaceTagsService.ts @isidorn
+/src/vs/workbench/contrib/tasks/browser/ @meganrogge
+/src/vs/workbench/contrib/tasks/browser/abstractTaskService.ts @Tyriar
+/src/vs/workbench/contrib/tasks/browser/task.contribution.ts @mjbvz
+/src/vs/workbench/contrib/tasks/browser/taskQuickPick.ts @alexr00
+/src/vs/workbench/contrib/tasks/browser/terminalTaskSystem.ts @Tyriar
+/src/vs/workbench/contrib/tasks/common/problemCollectors.ts @meganrogge
+/src/vs/workbench/contrib/tasks/common/problemMatcher.ts @mjbvz
+/src/vs/workbench/contrib/tasks/common/taskConfiguration.ts @mjbvz
+/src/vs/workbench/contrib/tasks/common/tasks.ts @meganrogge
+/src/vs/workbench/contrib/tasks/common/taskService.ts @meganrogge @alexr00
+/src/vs/workbench/contrib/tasks/common/taskSystem.ts @meganrogge @alexr00
+/src/vs/workbench/contrib/tasks/electron-sandbox/ @meganrogge
+/src/vs/workbench/contrib/telemetry/ @bpasero @lramos15
+/src/vs/workbench/contrib/terminal/browser/links/terminalLinkManager.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/links/terminalLinkOpeners.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/links/terminalLinkQuickpick.ts @meganrogge
+/src/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh @Tyriar @meganrogge
+/src/vs/workbench/contrib/terminal/browser/media/shellIntegration-rc.zsh @meganrogge
+/src/vs/workbench/contrib/terminal/browser/media/shellIntegration.fish @Tyriar @zgracem
+/src/vs/workbench/contrib/terminal/browser/media/shellIntegration.ps1 @Tyriar
+/src/vs/workbench/contrib/terminal/browser/media/xterm.css @meganrogge
+/src/vs/workbench/contrib/terminal/browser/remotePty.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/remoteTerminalBackend.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminal.contribution.ts @bpasero @joyceerhl
+/src/vs/workbench/contrib/terminal/browser/terminal.ts @meganrogge @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalActions.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalContextMenu.ts @jrieken
+/src/vs/workbench/contrib/terminal/browser/terminalEditor.ts @connor4312 @mjbvz
+/src/vs/workbench/contrib/terminal/browser/terminalEditorSerializer.ts @meganrogge
+/src/vs/workbench/contrib/terminal/browser/terminalEditorService.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalFindWidget.ts @connor4312 @mjbvz
+/src/vs/workbench/contrib/terminal/browser/terminalGroupService.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalIcons.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalInstance.ts @Tyriar @meganrogge
+/src/vs/workbench/contrib/terminal/browser/terminalInstanceService.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalMainContribution.ts @lramos15
+/src/vs/workbench/contrib/terminal/browser/terminalMenus.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalProcessManager.ts @meganrogge @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalProfileQuickpick.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalProfileResolverService.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalProfileService.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalRunRecentQuickPick.ts @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalService.ts @meganrogge @Tyriar
+/src/vs/workbench/contrib/terminal/browser/terminalTabsList.ts @SvanT @bpasero
+/src/vs/workbench/contrib/terminal/browser/terminalView.ts @Tyriar @connor4312
+/src/vs/workbench/contrib/terminal/browser/xterm/ @meganrogge
+/src/vs/workbench/contrib/terminal/browser/xterm/commandNavigationAddon.ts @MonadChains
+/src/vs/workbench/contrib/terminal/browser/xterm/decorationAddon.ts @Tyriar @bpasero
+/src/vs/workbench/contrib/terminal/browser/xterm/xtermTerminal.ts @Tyriar
+/src/vs/workbench/contrib/terminal/common/history.ts @babakks @joyceerhl
+/src/vs/workbench/contrib/terminal/common/remoteTerminalChannel.ts @Tyriar
+/src/vs/workbench/contrib/terminal/common/terminal.ts @Tyriar
+/src/vs/workbench/contrib/terminal/common/terminalColorRegistry.ts @Tyriar
+/src/vs/workbench/contrib/terminal/common/terminalConfiguration.ts @Tyriar
+/src/vs/workbench/contrib/terminal/common/terminalStorageKeys.ts @meganrogge
+/src/vs/workbench/contrib/terminal/common/terminalStrings.ts @Tyriar
+/src/vs/workbench/contrib/terminal/electron-sandbox/localPty.ts @Tyriar
+/src/vs/workbench/contrib/terminal/electron-sandbox/localTerminalBackend.ts @Tyriar
+/src/vs/workbench/contrib/terminal/electron-sandbox/terminal.contribution.ts @bpasero @Tyriar
+/src/vs/workbench/contrib/terminal/electron-sandbox/terminalNativeContribution.ts @bpasero
+/src/vs/workbench/contrib/terminal/electron-sandbox/terminalProfileResolverService.ts @Tyriar
+/src/vs/workbench/contrib/terminal/test/browser/* @Tyriar
+/src/vs/workbench/contrib/terminal/test/browser/capabilities/ @Tyriar
+/src/vs/workbench/contrib/terminal/test/browser/links/ @Tyriar
+/src/vs/workbench/contrib/terminal/test/browser/xterm/decorationAddon.test.ts @meganrogge
+/src/vs/workbench/contrib/terminal/test/browser/xterm/lineDataEventAddon.test.ts @Tyriar
+/src/vs/workbench/contrib/terminal/test/browser/xterm/shellIntegrationAddon.test.ts @Tyriar @babakks
+/src/vs/workbench/contrib/terminal/test/browser/xterm/xtermTerminal.test.ts @meganrogge
+/src/vs/workbench/contrib/terminal/test/common/ @babakks @joyceerhl
+/src/vs/workbench/contrib/testing/browser/explorerProjections/ @connor4312
+/src/vs/workbench/contrib/testing/browser/media/ @connor4312
+/src/vs/workbench/contrib/testing/browser/testExplorerActions.ts @TylerLeonhardt
+/src/vs/workbench/contrib/testing/browser/testing.contribution.ts @bpasero
+/src/vs/workbench/contrib/testing/browser/testingDecorations.ts @connor4312 @bpasero
+/src/vs/workbench/contrib/testing/browser/testingExplorerFilter.ts @jrieken
+/src/vs/workbench/contrib/testing/browser/testingExplorerView.ts @connor4312 @bpasero
+/src/vs/workbench/contrib/testing/browser/testingOutputPeek.ts @connor4312 @bpasero
+/src/vs/workbench/contrib/testing/browser/testingOutputTerminalService.ts @connor4312
+/src/vs/workbench/contrib/testing/browser/testingProgressUiService.ts @Tyriar
+/src/vs/workbench/contrib/testing/common/ @connor4312
+/src/vs/workbench/contrib/testing/common/testItemCollection.ts @mjbvz
+/src/vs/workbench/contrib/testing/test/ @connor4312
+/src/vs/workbench/contrib/themes/ @mjbvz
+/src/vs/workbench/contrib/timeline/ @lramos15
+/src/vs/workbench/contrib/timeline/browser/timelinePane.ts @jeanp413
+/src/vs/workbench/contrib/update/ @joaomoreno
+/src/vs/workbench/contrib/url/browser/trustedDomainsValidator.ts @TylerLeonhardt
+/src/vs/workbench/contrib/url/browser/url.contribution.ts @bpasero
+/src/vs/workbench/contrib/url/common/ @TylerLeonhardt
+/src/vs/workbench/contrib/url/test/ @TylerLeonhardt
+/src/vs/workbench/contrib/userDataProfile/ @bpasero
+/src/vs/workbench/contrib/userDataProfile/browser/userDataProfile.ts @sandy081
+/src/vs/workbench/contrib/userDataProfile/browser/userDataProfileActions.ts @sandy081
+/src/vs/workbench/contrib/userDataSync/browser/userDataSync.contribution.ts @bpasero
+/src/vs/workbench/contrib/userDataSync/browser/userDataSync.ts @lramos15 @bpasero
+/src/vs/workbench/contrib/userDataSync/browser/userDataSyncMergesView.ts @benibenj @alexr00
+/src/vs/workbench/contrib/userDataSync/electron-sandbox/ @bpasero
+/src/vs/workbench/contrib/watermark/ @bpasero
+/src/vs/workbench/contrib/webview/browser/overlayWebview.ts @mjbvz
+/src/vs/workbench/contrib/webview/browser/pre/ @mjbvz
+/src/vs/workbench/contrib/webview/browser/pre/service-worker.js @jrieken
+/src/vs/workbench/contrib/webview/browser/webview.ts @mjbvz
+/src/vs/workbench/contrib/webview/browser/webviewElement.ts @mjbvz @bpasero
+/src/vs/workbench/contrib/webview/browser/webviewFindWidget.ts @Tyriar
+/src/vs/workbench/contrib/webviewPanel/browser/webviewEditor.ts @mjbvz
+/src/vs/workbench/contrib/webviewPanel/browser/webviewEditorInput.ts @mjbvz
+/src/vs/workbench/contrib/webviewPanel/browser/webviewEditorInputSerializer.ts @mjbvz
+/src/vs/workbench/contrib/webviewPanel/browser/webviewPanel.contribution.ts @bpasero
+/src/vs/workbench/contrib/webviewPanel/browser/webviewWorkbenchService.ts @mjbvz
+/src/vs/workbench/contrib/webviewView/ @mjbvz
+/src/vs/workbench/contrib/welcomeBanner/ @bpasero
+/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.contribution.ts @bpasero
+/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStarted.ts @lramos15
+/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedDetailsRenderer.ts @jeanp413 @miguelsolorio @daviddossett
+/src/vs/workbench/contrib/welcomeGettingStarted/browser/gettingStartedService.ts @lramos15 @mjbvz
+/src/vs/workbench/contrib/welcomeGettingStarted/browser/media/ @lramos15
+/src/vs/workbench/contrib/welcomeGettingStarted/test/ @jeanp413 @mjbvz
+/src/vs/workbench/contrib/welcomeOverlay/ @connor4312
+/src/vs/workbench/contrib/welcomeViews/common/newFile.contribution.ts @bpasero @lramos15
+/src/vs/workbench/contrib/welcomeViews/common/viewsWelcome.contribution.ts @bpasero
+/src/vs/workbench/contrib/welcomeViews/common/viewsWelcomeContribution.ts @connor4312
+/src/vs/workbench/contrib/welcomeWalkthrough/browser/* @bpasero
+/src/vs/workbench/contrib/welcomeWalkthrough/browser/editor/ @lramos15
+/src/vs/workbench/contrib/workspace/ @bpasero
+/src/vs/workbench/contrib/workspaces/ @bpasero
+/src/vs/workbench/electron-sandbox/* @bpasero
+/src/vs/workbench/electron-sandbox/desktop.contribution.ts @deepak1556
+/src/vs/workbench/electron-sandbox/desktop.main.ts @sandy081
+/src/vs/workbench/electron-sandbox/parts/dialogs/ @bpasero
+/src/vs/workbench/electron-sandbox/parts/dialogs/dialogHandler.ts @deepak1556
+/src/vs/workbench/electron-sandbox/parts/titlebar/ @sbatten
+/src/vs/workbench/electron-sandbox/window.ts @lramos15
+/src/vs/workbench/services/accessibility/ @bpasero @lramos15
+/src/vs/workbench/services/actions/ @alexr00 @jrieken
+/src/vs/workbench/services/authentication/browser/ @jrieken @TylerLeonhardt
+/src/vs/workbench/services/authentication/common/ @bpasero
+/src/vs/workbench/services/checksum/ @bpasero @joyceerhl
+/src/vs/workbench/services/configuration/ @sandy081
+/src/vs/workbench/services/configuration/browser/configurationService.ts @bpasero
+/src/vs/workbench/services/configurationResolver/browser/ @mjbvz @roblourens
+/src/vs/workbench/services/configurationResolver/common/ @alexr00
+/src/vs/workbench/services/configurationResolver/common/variableResolver.ts @mjbvz
+/src/vs/workbench/services/contextmenu/ @bpasero
+/src/vs/workbench/services/credentials/ @bpasero @joyceerhl
+/src/vs/workbench/services/decorations/ @connor4312
+/src/vs/workbench/services/dialogs/browser/abstractFileDialogService.ts @bpasero
+/src/vs/workbench/services/dialogs/browser/simpleFileDialog.ts @alexr00
+/src/vs/workbench/services/dialogs/electron-sandbox/ @bpasero
+/src/vs/workbench/services/editor/ @lramos15
+/src/vs/workbench/services/editor/browser/ @bpasero
+/src/vs/workbench/services/editor/common/editorGroupColumn.ts @bpasero
+/src/vs/workbench/services/editor/common/editorResolverService.ts @bpasero
+/src/vs/workbench/services/editor/common/editorService.ts @bpasero
+/src/vs/workbench/services/encryption/ @bpasero @joyceerhl
+/src/vs/workbench/services/environment/browser/ @mjbvz @lramos15
+/src/vs/workbench/services/environment/electron-sandbox/ @alexr00 @bpasero
+/src/vs/workbench/services/extensionManagement/browser/builtinExtensionsScannerService.ts @jrieken @sandy081
+/src/vs/workbench/services/extensionManagement/browser/extensionBisect.ts @bpasero
+/src/vs/workbench/services/extensionManagement/browser/extensionEnablementService.ts @sandy081 @jrieken
+/src/vs/workbench/services/extensionManagement/browser/extensionUrlTrustService.ts @jrieken
+/src/vs/workbench/services/extensionManagement/browser/webExtensionsScannerService.ts @jrieken @sandy081
+/src/vs/workbench/services/extensionManagement/common/ @sandy081
+/src/vs/workbench/services/extensionManagement/common/extensionManagementServerService.ts @jrieken
+/src/vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementServerService.ts @jrieken @sandy081
+/src/vs/workbench/services/extensionManagement/electron-sandbox/extensionManagementService.ts @jrieken
+/src/vs/workbench/services/extensionManagement/electron-sandbox/extensionTipsService.ts @jrieken @sandy081
+/src/vs/workbench/services/extensionManagement/electron-sandbox/nativeExtensionManagementService.ts @sandy081
+/src/vs/workbench/services/extensionManagement/electron-sandbox/remoteExtensionManagementService.ts @sandy081
+/src/vs/workbench/services/extensionManagement/test/ @sandy081
+/src/vs/workbench/services/extensionRecommendations/ @jrieken @sandy081
+/src/vs/workbench/services/extensionResourceLoader/ @jrieken @sandy081
+/src/vs/workbench/services/extensions/browser/ @jrieken
+/src/vs/workbench/services/extensions/browser/extensionUrlHandler.ts @bpasero @lramos15
+/src/vs/workbench/services/extensions/browser/webWorkerExtensionHost.ts @alexdima
+/src/vs/workbench/services/extensions/common/abstractExtensionService.ts @connor4312 @bpasero @alexdima
+/src/vs/workbench/services/extensions/common/extensionHostProtocol.ts @alexdima
+/src/vs/workbench/services/extensions/common/extensionManifestPropertiesService.ts @jrieken @sandy081
+/src/vs/workbench/services/extensions/common/extensionsApiProposals.ts @alexr00 @mjbvz @jrieken @lramos15
+/src/vs/workbench/services/extensions/common/extensionsRegistry.ts @joyceerhl @joaomoreno
+/src/vs/workbench/services/extensions/electron-sandbox/electronExtensionService.ts @connor4312 @alexdima
+/src/vs/workbench/services/extensions/electron-sandbox/extensionHostStarter.ts @bpasero @joyceerhl
+/src/vs/workbench/services/extensions/electron-sandbox/localProcessExtensionHost.ts @alexdima
+/src/vs/workbench/services/extensions/electron-sandbox/nativeLocalProcessExtensionHost.ts @mjbvz
+/src/vs/workbench/services/extensions/electron-sandbox/sandboxExtensionService.ts @jrieken
+/src/vs/workbench/services/files/ @alexr00 @bpasero
+/src/vs/workbench/services/filesConfiguration/ @jrieken
+/src/vs/workbench/services/history/ @jrieken
+/src/vs/workbench/services/host/ @bpasero @lramos15
+/src/vs/workbench/services/hover/ @alexr00
+/src/vs/workbench/services/issue/ @bpasero @joyceerhl
+/src/vs/workbench/services/keybinding/ @mjbvz
+/src/vs/workbench/services/keybinding/browser/ @jrieken @sandy081
+/src/vs/workbench/services/label/ @connor4312 @lszomoru
+/src/vs/workbench/services/label/common/ @bpasero
+/src/vs/workbench/services/language/ @jrieken
+/src/vs/workbench/services/languageDetection/ @TylerLeonhardt @eltociear @jrieken
+/src/vs/workbench/services/lifecycle/ @jrieken
+/src/vs/workbench/services/localization/ @bpasero @joyceerhl
+/src/vs/workbench/services/menubar/ @bpasero @joyceerhl
+/src/vs/workbench/services/preferences/browser/ @lramos15 @jrieken @mjbvz
+/src/vs/workbench/services/preferences/common/preferences.ts @lramos15
+/src/vs/workbench/services/preferences/common/preferencesModels.ts @mjbvz
+/src/vs/workbench/services/preferences/common/preferencesValidation.ts @mjbvz
+/src/vs/workbench/services/preferences/test/ @lramos15
+/src/vs/workbench/services/progress/browser/progressIndicator.ts @sandy081
+/src/vs/workbench/services/progress/browser/progressService.ts @connor4312 @mjbvz
+/src/vs/workbench/services/progress/test/ @sandy081
+/src/vs/workbench/services/quickinput/ @bpasero @meganrogge
+/src/vs/workbench/services/remote/ @bpasero
+/src/vs/workbench/services/search/common/fileSearchManager.ts @connor4312
+/src/vs/workbench/services/search/common/search.ts @andreamah
+/src/vs/workbench/services/search/common/searchService.ts @lramos15
+/src/vs/workbench/services/search/common/textSearchManager.ts @mjbvz
+/src/vs/workbench/services/search/node/ @connor4312
+/src/vs/workbench/services/search/node/ripgrepTextSearchEngine.ts @mjbvz
+/src/vs/workbench/services/telemetry/browser/ @sbatten
+/src/vs/workbench/services/telemetry/browser/telemetryService.ts @lramos15
+/src/vs/workbench/services/telemetry/electron-sandbox/ @lramos15
+/src/vs/workbench/services/telemetry/electron-sandbox/telemetryService.ts @sbatten
+/src/vs/workbench/services/telemetry/electron-sandbox/workbenchCommonProperties.ts @bpasero
+/src/vs/workbench/services/telemetry/test/ @sbatten
+/src/vs/workbench/services/textfile/browser/ @bpasero
+/src/vs/workbench/services/textfile/browser/browserTextFileService.ts @jrieken
+/src/vs/workbench/services/textfile/common/textEditorService.ts @bpasero @lramos15
+/src/vs/workbench/services/textfile/common/textFileEditorModelManager.ts @connor4312
+/src/vs/workbench/services/textfile/electron-sandbox/ @jrieken @bpasero
+/src/vs/workbench/services/textMate/ @jrieken
+/src/vs/workbench/services/textmodelResolver/ @bpasero
+/src/vs/workbench/services/themes/browser/ @jrieken
+/src/vs/workbench/services/themes/common/ @mjbvz
+/src/vs/workbench/services/timer/browser/ @lramos15
+/src/vs/workbench/services/timer/electron-sandbox/ @jrieken
+/src/vs/workbench/services/title/ @jrieken
+/src/vs/workbench/services/tunnel/ @jrieken
+/src/vs/workbench/services/untitled/ @lramos15
+/src/vs/workbench/services/update/ @jrieken
+/src/vs/workbench/services/url/ @jrieken
+/src/vs/workbench/services/userData/ @bpasero @sandy081
+/src/vs/workbench/services/userDataProfile/ @sandy081
+/src/vs/workbench/services/userDataProfile/browser/ @jrieken
+/src/vs/workbench/services/userDataProfile/common/userDataProfileImportExportService.ts @jrieken
+/src/vs/workbench/services/userDataSync/ @jrieken
+/src/vs/workbench/services/userDataSync/browser/userDataSyncEnablementService.ts @sandy081
+/src/vs/workbench/services/userDataSync/browser/webUserDataSyncEnablementService.ts @sandy081
+/src/vs/workbench/services/userDataSync/common/ @sandy081
+/src/vs/workbench/services/userDataSync/electron-sandbox/userDataAutoSyncService.ts @sandy081
+/src/vs/workbench/services/userDataSync/electron-sandbox/userDataSyncMachinesService.ts @sandy081
+/src/vs/workbench/services/userDataSync/electron-sandbox/userDataSyncStoreManagementService.ts @sandy081
+/src/vs/workbench/services/views/browser/treeViewsService.ts @jrieken
+/src/vs/workbench/services/views/browser/viewDescriptorService.ts @sandy081 @alexr00
+/src/vs/workbench/services/views/common/ @joyceerhl
+/src/vs/workbench/services/views/test/ @sandy081
+/src/vs/workbench/services/workingCopy/browser/ @bpasero @jrieken
+/src/vs/workbench/services/workingCopy/common/ @bpasero
+/src/vs/workbench/services/workingCopy/common/workingCopyEditorService.ts @alexr00
+/src/vs/workbench/services/workingCopy/electron-sandbox/ @bpasero @jrieken
+/src/vs/workbench/services/workingCopy/test/browser/storedFileWorkingCopyManager.test.ts @bpasero
+/src/vs/workbench/services/workingCopy/test/browser/workingCopyBackupTracker.test.ts @lramos15
+/src/vs/workbench/services/workingCopy/test/browser/workingCopyEditorService.test.ts @lramos15
+/src/vs/workbench/services/workspaces/browser/abstractWorkspaceEditingService.ts @sandy081
+/src/vs/workbench/services/workspaces/browser/workspacesService.ts @bpasero
+/src/vs/workbench/services/workspaces/common/ @jrieken
+/src/vs/workbench/services/workspaces/common/editSessionIdentityService.ts @joyceerhl
+/src/vs/workbench/services/workspaces/common/workspaceTrust.ts @connor4312
+/src/vs/workbench/test/browser/* @bpasero @meganrogge @Tyriar @sandy081
+/src/vs/workbench/test/browser/parts/ @lramos15
+/src/vs/workbench/test/electron-browser/ @bpasero @sandy081
+/src/vs/workbench/workbench.common.main.ts @jrieken @alexr00
+/src/vs/workbench/workbench.desktop.main.ts @hediet @jrieken @sandy081
+/src/vs/workbench/workbench.web.main.ts @bpasero @alexr00
+/src/vscode-dts/vscode.d.ts @mjbvz @alexr00 @bpasero
+/src/vscode-dts/vscode.proposed.contribCommentPeekContext.d.ts @alexr00
+/src/vscode-dts/vscode.proposed.contribEditorContentMenu.d.ts @jrieken
+/src/vscode-dts/vscode.proposed.contribEditSessions.d.ts @joyceerhl @joaomoreno
+/src/vscode-dts/vscode.proposed.contribMergeEditorMenus.d.ts @hediet
+/src/vscode-dts/vscode.proposed.contribViewSize.d.ts @alexr00
+/src/vscode-dts/vscode.proposed.customEditorMove.d.ts @mjbvz
+/src/vscode-dts/vscode.proposed.editSessionIdentityProvider.d.ts @joyceerhl @joaomoreno
+/src/vscode-dts/vscode.proposed.inlineCompletionsAdditions.d.ts @mjbvz
+/src/vscode-dts/vscode.proposed.notebookDebugOptions.d.ts @mjbvz
+/src/vscode-dts/vscode.proposed.notebookLiveShare.d.ts @mjbvz
+/src/vscode-dts/vscode.proposed.notebookMessaging.d.ts @mjbvz
+/src/vscode-dts/vscode.proposed.resolvers.d.ts @mjbvz @jrieken
+/src/vscode-dts/vscode.proposed.snippetWorkspaceEdit.d.ts @jrieken
+/src/vscode-dts/vscode.proposed.telemetry.d.ts @lramos15
+/src/vscode-dts/vscode.proposed.telemetryLog.d.ts @lramos15
+/src/vscode-dts/vscode.proposed.treeItemCheckbox.d.ts @benibenj
+/src/vscode-dts/vscode.proposed.tunnels.d.ts @alexr00
+/test/automation/* @mjbvz
+/test/automation/src/application.ts @bpasero
+/test/automation/src/code.ts @bpasero
+/test/automation/src/electron.ts @bpasero
+/test/automation/src/logger.ts @bpasero
+/test/automation/src/playwrightBrowser.ts @bpasero
+/test/automation/src/playwrightDriver.ts @bpasero
+/test/automation/src/playwrightElectron.ts @bpasero
+/test/automation/src/terminal.ts @Tyriar
+/test/integration/ @mjbvz
+/test/monaco/ @mjbvz
+/test/smoke/src/* @bpasero
+/test/smoke/src/areas/terminal/terminal-profiles.test.ts @meganrogge
+/test/smoke/src/areas/terminal/terminal-shellIntegration.test.ts @Tyriar
+/test/smoke/src/areas/workbench/ @bpasero
+/test/unit/* @connor4312
+/test/unit/browser/ @bpasero
+/test/unit/electron/ @jrieken
+/ThirdPartyNotices.txt @bpasero
+/yarn.lock @Tyriar @mjbvz @meganrogge @jrieken
